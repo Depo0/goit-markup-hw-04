@@ -1,0 +1,380 @@
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px
+}
+
+.list {
+  list-style: none;
+  background-color: #fff;
+}
+
+.image {
+  display: block;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+}
+
+.header-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.span-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.web-logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-right: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+.header-list-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  list-style: none;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-list-link:hover {
+  color: #404bbf;
+}
+
+.header-list-link:focus {
+  color: #404bbf;
+}
+.header-list-link:active {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.address-link:hover {
+  color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
+}
+
+.the-first-section {
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-section-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-width: 496px; 
+  margin-left: 320px;
+  margin-top: 0px;
+}
+
+.btn-order-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: 470px;
+  margin-right: 470px;
+  margin-top: 48px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-order-service:hover {
+  background-color: #404bbf;
+}
+
+.btn-order-service:focus {
+  background-color: #404bbf;
+}
+
+.the-second-section {
+  padding: 120px 0 120px;
+  width: 1440px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0; 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.solution-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  gap: 24px;
+}
+
+.solution-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.solutions {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.solution-texts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.the-third-section {
+  background: #f4f4fd;
+  width: 1440px;
+  padding: 120px 0 120px;
+}
+
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
+
+}
+
+.our-team-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
+.team-list-item {
+  background-color: #fff;
+  padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+
+}
+
+.workers-container {
+  padding: 32px 0 32px;
+  display: inline;
+}
+.workers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
+.the-forth-section {
+  padding: 120px 0 120px 0;
+  width: 1440px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-bottom: 120px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+footer {
+  background: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  padding: 100px 0 100px;
+}
+
+.span-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.web-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 100px;
+  margin-right: 850px;
+
+}
