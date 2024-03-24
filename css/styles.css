@@ -136,8 +136,8 @@ address {
 }
 
 .the-first-section {
-  background: #2e2f42;
-  width: 1440px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+  background-size: 1440px;
   height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -231,8 +231,7 @@ address {
 }
 
 .the-third-section {
-  background: #f4f4fd;
-  width: 1440px;
+  background-color: #f4f4fd;
   padding: 120px 0 120px;
 }
 
@@ -332,7 +331,6 @@ address {
 
 footer {
   background: #2e2f42;
-  width: 1440px;
   height: 312px;
   padding: 100px 0 100px;
 }
