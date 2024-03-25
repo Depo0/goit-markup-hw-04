@@ -261,8 +261,37 @@ address {
 }
 
 .workers-container {
-  padding: 32px 0 32px;
+  padding: 32px 0 8px;
 }
+
+.contacts-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.contact-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.contact-link:hover {
+  background-color: #31D0AA;
+  animation-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.svg-cont-icon {
+  fill: white;
+}
+
 .workers {
   font-weight: 500;
   font-size: 20px;
@@ -278,6 +307,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .the-forth-section {
@@ -335,6 +365,11 @@ footer {
   padding: 100px 0 100px;
 }
 
+.footer-first-block{
+  display: flex;
+  gap: 269px;
+}
+
 .span-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -360,11 +395,18 @@ footer {
   margin-bottom: 16px;
 }
 
+.footer-subtitle {
+  color: white;
+}
+
+.footer-second-block {
+  display: flex;
+  gap: 120px;
+}
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-
 }
