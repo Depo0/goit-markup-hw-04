@@ -204,6 +204,15 @@ address {
   overflow: hidden;
 }
 
+.solution-icon {
+background: #f4f4fd;
+width: 264px;
+height: 112px;
+padding: 24px 100px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+}
+
 .solution-list {
   display: flex;
   align-items: center;
@@ -282,10 +291,9 @@ address {
 }
 
 .contact-link:hover {
-  background-color: #31D0AA;
+  background-color: #404BBF;
   animation-duration: 250ms;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .svg-cont-icon {
@@ -409,4 +417,19 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+.contact-link-footer {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.contact-link-footer:hover {
+  background-color: #31D0AA;
+  animation-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
