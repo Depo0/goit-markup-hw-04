@@ -28,7 +28,7 @@
             >WEB <span class="span-header">Studio</span>
           </a>
           <ul class="nav-list list">
-            <li><a class="header-list-link" href="./index.html">Studio</a></li>
+            <li><a class="header-list-link active-link" href="./index.html">Studio</a></li>
             <li><a class="header-list-link" href="">Portfolio</a></li>
             <li><a class="header-list-link" href="">Contacts</a></li>
           </ul>
@@ -63,9 +63,12 @@
           <h2 hidden class="visually-hidden">Solutions</h2>
           <ul class="list solution-list">
             <li class="solution-list-item">
-             <svg class="solution-icon" width="64px" height="64px">
-                      <use href="./images/icons.svg#icon-antenna-1"></use>
-                    </svg>
+             <div class="solutions-icon">
+              <svg class="solution-icon" width="64px" height="64px">
+              <use href="./images/icons.svg#icon-antenna-1">
+              </use>
+            </svg>
+          </div>
               <h3 class="solutions">Strategy</h3>
               <p class="solution-texts">
                 Our goal is to identify the business problem to walk away with
@@ -73,9 +76,11 @@
               </p>
             </li>
             <li class="solution-list-item">
-              <svg class="solution-icon" width="64px" height="64px">
+              <div class="solutions-icon">
+                <svg class="solution-icon" width="64px" height="64px">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
+            </div>
               <h3 class="solutions">Punctuality</h3>
               <p class="solution-texts">
                 Bring the key message to the brand's audience for the best price
@@ -83,9 +88,11 @@
               </p>
             </li>
             <li class="solution-list-item">
-              <svg class="solution-icon" width="64px" height="64px">
+              <div class="solutions-icon">
+                <svg class="solution-icon" width="64px" height="64px">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
+            </div>
               <h3 class="solutions">Diligence</h3>
               <p class="solution-texts">
                 Research and confirm brands that present the strongest digital
@@ -93,9 +100,11 @@
               </p>
             </li>
             <li class="solution-list-item">
-              <svg class="solution-icon" width="64px" height="64px">
+              <div class="solutions-icon">
+                <svg class="solution-icon" width="64px" height="64px">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
+            </div>
               <h3 class="solutions">Technologies</h3>
               <p class="solution-texts">
                 Design practice focused on digital experiences. We bring forth a
@@ -465,18 +474,16 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="footer-first-block">
+      <div class="container footer-div">
           <a class="web-logo-footer" href="./index.html"
           >WEB <span class="span-footer">Studio</span>
           </a>
-          <p class="footer-subtitle">Social media</p>
-        </div>
-        <div class="footer-second-block">
           <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
+        <div class="social-media-block">
+          <p class="footer-subtitle">Social media</p>
         <ul class="contacts-icon-list">
           <li>
             <a class="contact-link-footer" 
@@ -519,7 +526,7 @@
           </a>
           </li>
         </ul>
-      </div>
+        </div>
       </div>
     </footer>
   </body>
